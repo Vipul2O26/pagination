@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
     $status = $_POST['status'] ?? '';
     $gender = $_POST['gender'] ?? '';
 
-    // Backend Validation
+   
     if ($fname == "" || strlen($fname) < 3)
         $errors['fname'] = "Minimum 3 characters required";
 
